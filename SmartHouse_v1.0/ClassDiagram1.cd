@@ -4,7 +4,7 @@
     <Position X="2" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAEAAAAQAACEAAgAAAAAAgAAAACAAAAgwAEAAAA=</HashCode>
-      <FileName>Conditioner.cs</FileName>
+      <FileName>Class\Conditioner.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" Collapsed="true" />
   </Class>
@@ -20,7 +20,7 @@
     <Position X="5.25" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAEAAAQAAAEAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
-      <FileName>Device.cs</FileName>
+      <FileName>Abstract Class\Device.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
@@ -28,7 +28,7 @@
     <Position X="4.25" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAABAAAAAAQAACEAAAAAAAAAABAAACAQAAAAAEAAAA=</HashCode>
-      <FileName>Fridge.cs</FileName>
+      <FileName>Class\Fridge.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
@@ -36,7 +36,7 @@
     <Position X="6.5" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAQAACEAAAAAABAAAAAAAAAAAgAAAEgAAA=</HashCode>
-      <FileName>Lamp.cs</FileName>
+      <FileName>Class\Lamp.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
@@ -51,7 +51,7 @@
     <Position X="14.75" Y="2" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AACABAAAAAAQAABEAAAAAAAAAAAACACABQoAAAEAAAA=</HashCode>
-      <FileName>Radio.cs</FileName>
+      <FileName>Class\Radio.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
@@ -59,7 +59,7 @@
     <Position X="8.75" Y="5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQAAAAAgAAAYACBEAAAAAAAAAACAAACABAIAAAEAAAA=</HashCode>
-      <FileName>TV.cs</FileName>
+      <FileName>Class\TV.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
@@ -67,84 +67,84 @@
     <Position X="11.25" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAgAAAAAAAAAgQAAAAAA=</HashCode>
-      <FileName>IConditionerMode.cs</FileName>
+      <FileName>Interface\IConditionerMode.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="SmartHouse_v1._0.ICreate" Collapsed="true">
     <Position X="13" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAABAAAAAIAAAAABAgAAA=</HashCode>
-      <FileName>ICreate.cs</FileName>
+      <FileName>Interface\ICreate.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="SmartHouse_v1._0.IFridgeMode" Collapsed="true">
     <Position X="14.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA=</HashCode>
-      <FileName>IFridgeMode.cs</FileName>
+      <FileName>Interface\IFridgeMode.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="SmartHouse_v1._0.ILampMode" Collapsed="true">
     <Position X="11.25" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAgAAAAgAAA=</HashCode>
-      <FileName>ILampMode.cs</FileName>
+      <FileName>Interface\ILampMode.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="SmartHouse_v1._0.ISetChannel" Collapsed="true">
     <Position X="13" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AQAAAAAgAAAIACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>ISetChannel.cs</FileName>
+      <FileName>Interface\ISetChannel.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="SmartHouse_v1._0.ISetTemp" Collapsed="true">
     <Position X="14.75" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
-      <FileName>ISetTemp.cs</FileName>
+      <FileName>Interface\ISetTemp.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="SmartHouse_v1._0.ISetVolume" Collapsed="true">
     <Position X="11.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAACABAIAAAAAAAA=</HashCode>
-      <FileName>ISetVolume.cs</FileName>
+      <FileName>Interface\ISetVolume.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="SmartHouse_v1._0.ISetWave" Collapsed="true">
     <Position X="13" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AACABAAAAAAAAAAAAAAAAAAAAAAACAAAAQAAAAAAAAA=</HashCode>
-      <FileName>ISetWave.cs</FileName>
+      <FileName>Interface\ISetWave.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="SmartHouse_v1._0.IStatus" Collapsed="true">
     <Position X="14.75" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
-      <FileName>IStatus.cs</FileName>
+      <FileName>Interface\IStatus.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Enum Name="SmartHouse_v1._0.BrightnessLevel" Collapsed="true">
     <Position X="11.25" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAAAEAAA=</HashCode>
-      <FileName>BrightnessLevel.cs</FileName>
+      <FileName>Enum\BrightnessLevel.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="SmartHouse_v1._0.ConditionerMode" Collapsed="true">
     <Position X="13" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAgACAAAAAAAAAEAAAAAAAABAAAAAAAAAAAAA=</HashCode>
-      <FileName>ConditionerMode.cs</FileName>
+      <FileName>Enum\ConditionerMode.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Enum Name="SmartHouse_v1._0.FridgeMode" Collapsed="true">
     <Position X="14.75" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAEAAAAAAQABAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>FridgeMode.cs</FileName>
+      <FileName>Enum\FridgeMode.cs</FileName>
     </TypeIdentifier>
   </Enum>
   <Font Name="Segoe UI" Size="9" />
