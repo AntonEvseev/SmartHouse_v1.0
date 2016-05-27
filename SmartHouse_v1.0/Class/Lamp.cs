@@ -13,20 +13,6 @@ namespace SmartHouse_v1._0
         {
             Status = status;
         }
-        public override void OnDevice()
-        {
-            if (Status == false)
-            {
-                Status = true;
-            }
-        }
-        public override void OffDevice()
-        {
-            if (Status)
-            {
-                Status = false;
-            }
-        }
         public void SetLowBrightness()
         {
             if (Status)
